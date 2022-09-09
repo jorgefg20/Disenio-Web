@@ -37,12 +37,12 @@
                     <li class="nav-item dropdown  log" style="float:right;">
                         <a class="nav-link dropdown-toggle button" href="#" id="navbarDarkDropdownMenuLink"
                             data-bs-toggle="dropdown">
-                            Log In
+                            Acces
                         </a>
                         <ul class="dropdown-menu dropdown-menu menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item text" href="#">Cars</a></li>
-                            <li><a class="dropdown-item text" href="#">Trucks</a></li>
-                            <li><a class="dropdown-item text" href="#">Construction</a></li>
+                            <li><a class="dropdown-item text"></a><center><button class="btn btn-outline button" type="submit" data-bs-toggle="modal" data-bs-target="#loginModal">Log In</button></center> </li>
+                            <li><a class="dropdown-item text"></a><center><button class="btn btn-outline button" type="submit" data-bs-toggle="modal" data-bs-target="#loginModal">Sign In</button></center> </li>
+                          
                         </ul>
                     </li>
 
@@ -52,6 +52,70 @@
 
         </div>
     </nav>
+
+
+    <div class="modal fade" id="loginModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content mymodal">
+                <div class="modal-header">
+                    <h5 class="model-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="" class="col-form-label">Email or username:</label>
+                            <input type="text" class="form-control" placeholder="Enter your email or user name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mesasage-text" class="col-form-label">Password:</label>
+                            <input type="password" class="form-control" placeholder="Enter your password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-close-m" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-action">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="RegisterModal" data-bs-backdrop="static" tabindex="-2" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content mymodal">
+                <div class="modal-header">
+                    <h5 class="model-title" id="exampleModalLabel2">User Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div>
+                            <label for="" class="col-form-label">Name:</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div>
+                            <label for="" class="col-form-label">Email:</label>
+                            <input type="text" class="form-control" placeholder="enter your email">
+                        </div>
+                        <div>
+                            <label for="" class="col-form-label">Password:</label>
+                            <input type="text" class="form-control" placeholder="Enter your password">
+                        </div>
+                        <div>
+                            <label for="mesasage-text" class="col-form-label">Confirm Password:</label>
+                            <input type="password" class="form-control" placeholder="Confirm your password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-close-m" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-action">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <div id="mySlide" class="carousel slide" data-bs-ride="carousel">

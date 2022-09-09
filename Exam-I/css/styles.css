@@ -21,6 +21,7 @@ body {
    background-color: rgba(255, 255, 255, 0.2);
     color: aliceblue;
     border-radius: 10px;
+    width: 100%;
 }
 
 .button:hover{
@@ -38,14 +39,20 @@ body {
 }
 
 .text:hover{
-    background-color: #ff6600;
-    color: aliceblue;
+    background-color: #595756;
+    color: rgb(68, 68, 69);
+    border-style: dashed;
+    border-color: black;
 }
 
 
 .menu {
-    background-color: #4d148c;
-    color: aliceblue;
+    backdrop-filter: blur(10px); /* Chrome and Opera */
+    background-color: rgba(255, 255, 255, 0.2);
+     color: rgb(34, 34, 34);
+     border-style: dashed;
+     border-color: black
+    
     
 }
 
@@ -57,9 +64,9 @@ body {
 }
 
 .btn-close-m{
-    background-color: #ff6600;
+    background-color: #bcbcbc;
 }
-.btn-action{
-    background-color: #4d148c;
+.btn-action{    
+    background-color: #3773f4;
 }
 
