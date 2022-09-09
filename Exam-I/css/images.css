@@ -1,6 +1,8 @@
 .bg-image{
-    background-image: url(../images/bg-index.jpg);
+    background-image: url(../images/volvo-nav/backNav.jpg);
     background-repeat: no-repeat;
+    background-blend-mode:luminosity;
+   
 }
 
 #fdIma{
@@ -19,4 +21,8 @@
 
     width: 100%;
     height: 20%;
+}
+
+.cars{
+    border-radius: 3px;
 }
