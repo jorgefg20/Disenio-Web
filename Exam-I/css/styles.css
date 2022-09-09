@@ -1,0 +1,59 @@
+body {
+    background-color: #b4b4b4;
+}
+
+.nav {
+    /*background-color: rgb(41, 105, 161);*/
+    background-image: url(../images/volvo-nav/backNav.jpg);
+}
+
+.volvo-title{
+    font-family: Bernard-MT ;
+    color: aliceblue;
+}
+
+.button{
+    backdrop-filter: blur(10px); /* Chrome and Opera */
+   background-color: rgba(255, 255, 255, 0.2);
+    color: aliceblue;
+}
+
+.button:hover{
+    background-color: #91908f;
+    border-color: #3c3c3d;
+    color: aliceblue;
+}
+
+.button:active{
+    background-color: #eae4e0;
+}
+
+.text{
+    color: aliceblue;
+}
+
+.text:hover{
+    background-color: #ff6600;
+    color: aliceblue;
+}
+
+
+.menu {
+    background-color: #4d148c;
+    color: aliceblue;
+    
+}
+
+.mymodal{
+
+    backdrop-filter: blur(10px); /* Chrome and Opera */
+    background-color: rgba(255, 255, 255, 0.3);
+    color: aliceblue;
+}
+
+.btn-close-m{
+    background-color: #ff6600;
+}
+.btn-action{
+    background-color: #4d148c;
+}

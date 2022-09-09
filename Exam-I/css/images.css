@@ -1,0 +1,16 @@
+.bg-image{
+    background-image: url(../images/bg-index.jpg);
+    background-repeat: no-repeat;
+}
+
+#fdIma{
+    background-image: url(../images/Recolección-Fedex.png);
+   background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+#fdXIma{
+    background-image: url(../images/fedexima.png);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
